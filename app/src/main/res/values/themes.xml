@@ -1,5 +1,13 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <style name="Theme.CalculatorApp" parent="Theme.Material3.DayNight.NoActionBar">
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorSurface</item>
+        <item name="colorPrimary">@color/cyber_cyan</item>
+        <item name="colorOnPrimary">@color/cyber_equals_text</item>
+        <item name="colorSecondary">@color/cyber_magenta</item>
+        <item name="colorOnSecondary">@color/cyber_text_primary</item>
+        <item name="colorSurface">@color/cyber_surface</item>
+        <item name="colorOnSurface">@color/cyber_text_primary</item>
+        <item name="android:windowBackground">@drawable/bg_cyberpunk</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/cyber_bg_top</item>
+        <item name="android:navigationBarColor" tools:targetApi="o_mr1">@color/cyber_bg_top</item>
     </style>
 </resources>

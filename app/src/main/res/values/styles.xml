@@ -1,0 +1,41 @@
+<resources>
+    <style name="Widget.Calculator.BaseButton" parent="Widget.Material3.Button">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">24sp</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="insetTop">0dp</item>
+        <item name="insetBottom">0dp</item>
+        <item name="android:elevation">0dp</item>
+    </style>
+
+    <style name="Widget.Calculator.NumberButton" parent="Widget.Calculator.BaseButton">
+        <item name="backgroundTint">@color/cyber_button_surface</item>
+        <item name="strokeColor">@color/cyber_cyan</item>
+        <item name="android:textColor">@color/cyber_cyan</item>
+        <item name="rippleColor">@color/cyber_magenta</item>
+    </style>
+
+    <style name="Widget.Calculator.OperatorButton" parent="Widget.Calculator.BaseButton">
+        <item name="backgroundTint">@color/cyber_surface_alt</item>
+        <item name="strokeColor">@color/cyber_magenta</item>
+        <item name="android:textColor">@color/cyber_magenta</item>
+        <item name="rippleColor">@color/cyber_cyan</item>
+    </style>
+
+    <style name="Widget.Calculator.ActionButton" parent="Widget.Calculator.BaseButton">
+        <item name="backgroundTint">@color/cyber_surface_alt</item>
+        <item name="strokeColor">@color/cyber_orange</item>
+        <item name="android:textColor">@color/cyber_orange</item>
+        <item name="rippleColor">@color/cyber_cyan</item>
+    </style>
+
+    <style name="Widget.Calculator.EqualsButton" parent="Widget.Calculator.BaseButton">
+        <item name="backgroundTint">@color/cyber_cyan</item>
+        <item name="strokeColor">@color/cyber_cyan</item>
+        <item name="android:textColor">@color/cyber_equals_text</item>
+        <item name="rippleColor">@color/cyber_magenta</item>
+    </style>
+</resources>
