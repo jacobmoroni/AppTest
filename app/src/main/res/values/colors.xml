@@ -1,0 +1,20 @@
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="cyber_bg_top">#090016</color>
+    <color name="cyber_bg_mid">#13002A</color>
+    <color name="cyber_bg_bottom">#05000D</color>
+
+    <color name="cyber_surface">#1A1133</color>
+    <color name="cyber_surface_alt">#24154A</color>
+    <color name="cyber_surface_panel">#32135C</color>
+
+    <color name="cyber_cyan">#00F6FF</color>
+    <color name="cyber_magenta">#FF2FD1</color>
+    <color name="cyber_orange">#FF8A00</color>
+    <color name="cyber_text_primary">#E8F8FF</color>
+    <color name="cyber_text_secondary">#9AB2D6</color>
+    <color name="cyber_equals_text">#090016</color>
+    <color name="cyber_button_surface">#170C2F</color>
+</resources>
